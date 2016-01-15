@@ -31,10 +31,7 @@ int convert_sll_2digit_to_int(struct node *head){
 	{
 		digit = 0;
 		for (temp = head; temp != NULL; temp = temp->next)
-		{
 			digit = digit * 100 + (temp->digit1 * 10) + temp->digit2;
-
-		}
 	}
 	return digit;
 }
